@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.hide-desktop {
+  display: none;
+}
+
+body aside.menu.mobile-menu, body aside.menu.mobile-menu.is-menu-active {
+  display: none;
+  overflow: hidden;
+  margin: 0 24px;
+  background: rgb(255,255,255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.3);
+}
+body aside.menu.mobile-menu ul.menu-list li a {
+  padding: 15px 30px;
+}
+
+
+@media (max-width: 1440px) {
+  .hide {
+    display: none !important
+  }
+}
+
+@media (max-width: 1230px) {
+}
+
+@media (max-width: 1024px) {
+  .hide-laptop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 980px) {
+}
+
+@media (max-width: 980px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  body div#intro-content div.wrap-container.top {
+  	height: 42vh;
+  }
+  body div#intro-content div.wrap-container.bottom {
+  	height: 36vh;
+  }
+  body header#header nav.navbar .navbar-brand .navbar-mobileTrigger {
+    display: flex;
+  }
+  body aside.menu.mobile-menu.is-menu-active {
+    width: auto;
+    display: block;
+    position: absolute;
+    z-index: 150;
+    top: 90px;
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-tablet {
+    display: none !important;
+  }
+  body div#intro-content div.wrap-container.middle {
+    height: 450px;
+    min-height: 450px;
+  }
+  body div#intro-content div.wrap-container.top {
+  	height: 39vh;
+  }
+  body div#intro-content div.wrap-container.bottom {
+  	height: 24vh;
+  }
+  body header#header nav.navbar .navbar-brand .navbar-item img {
+    max-height: 120px;
+  }
+  body main#main-content .build-learn-deliver .column h2 {
+    color: rgb(0,0,0);
+  }
+  body main#main-content .build-learn-deliver {
+    background-position: center top;
+  }
+  body main#main-content .build-learn-deliver object.page-tear {
+    top: 0;
+  }
+  body main#main-content .build-learn-deliver .content-card {
+    background-color: rgba(0,0,0,0.75);
+  }
+  body main#main-content .build-learn-deliver .content-card object {
+    margin-bottom: 0;
+  }
+  body main#main-content .build-learn-deliver .content-card p {
+    padding-top: 0;
+  	color: rgb(255,255,255);
+  }
+  footer#footer .footer .columns.mwbe {
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 525px) {
+  .hide-mobile {
+    display: none !important;
+  }
+  .show-mobile {
+    display: block !important;
+  }
+  body div#intro-content div.wrap-container.top {
+  	height: 45vh;
+  }
+  body div#intro-content div.wrap-container.bottom {
+  	height: 21vh;
+  }
+}
+
+@media (max-height: 600px) {
+}

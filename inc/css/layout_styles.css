@@ -1,0 +1,321 @@
+body #wrapper {
+	display: flex;
+}
+body header#header {
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+}
+body.page-template header#header, body.error404 header#header {
+	padding-bottom: 60px;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-image: url('../images/teachingthings_paper-texture_bg.jpg');
+}
+body header#header nav.navbar {
+	background-color: transparent;
+}
+body header#header nav.navbar .navbar-brand .navbar-item img {
+	max-height: calc(201px + .75vw);
+}
+body.page-template header#header nav.navbar .navbar-brand .navbar-item img, body.error404 header#header nav.navbar .navbar-brand .navbar-item img {
+	max-height: 120px;
+}
+body header#header nav.navbar #mainNav ul {
+	align-items: baseline;
+}
+body header#header nav.navbar #mainNav ul li {
+	align-items: center;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+body header#header nav.navbar .navbar-brand {
+	align-items: center;
+	justify-content: space-between;
+}
+body header#header nav.navbar .navbar-brand #mainNav ul li > a {
+	padding: 1.5rem 1.75rem;
+	line-height: 1.5;
+}
+body header#header nav.navbar .navbar-brand .navbar-mobileTrigger {
+	height: auto;
+	max-width: 36px;
+	display: none;
+	flex-direction: column;
+	margin-right: 24px;
+	cursor: pointer;
+}
+body header#header nav.navbar .navbar-mobileTrigger .bar1, .bar2, .bar3 {
+  width: 33px;
+  height: 4.5px;
+  background-color: rgb(0,0,0);
+  margin: 3px 0;
+	transition: all .24s;
+}
+body header#header nav.navbar .navbar-mobileTrigger:hover .bar1, body header#header nav.navbar .navbar-mobileTrigger:hover .bar2, body header#header nav.navbar .navbar-mobileTrigger:hover .bar3 {
+  background-color: rgb(0,216,264);
+}
+body header#header nav.navbar .navbar-mobileTrigger.is-button-active .bar1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+body header#header nav.navbar .navbar-mobileTrigger.is-button-active .bar2 {
+	opacity: 0;
+}
+body header#header nav.navbar .navbar-mobileTrigger.is-button-active .bar3 {
+  transform: rotate(45deg) translate(-9px, -9px);
+}
+body header#header nav.navbar #mainNav ul, body header#header nav.navbar #mainNav {
+	align-items: center;
+	overflow: hidden;
+}
+body header#header nav.navbar #mainNav ul, body header#header nav.navbar #mainNav ul li {
+	text-align: center;
+}
+body.page-template header#header nav.navbar #mainNav ul, body.page-template header#header nav.navbar #mainNav ul li, body.error404 header#header nav.navbar #mainNav ul, body.error404 header#header nav.navbar #mainNav ul li {
+	margin-right: 12px;
+	background-size: 48px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+body header#header nav.navbar #mainNav ul li a {
+	display: block;
+	padding: 12px 3rem;
+	font-weight: 600;
+	font-size: calc(100% + .75vh);
+}
+body header#header nav.navbar #mainNav ul li a:hover {
+	opacity: 0.54;
+}
+body.page-template-Build header#header nav.navbar #mainNav ul li.build {
+	background-image: url('../images/pinwheel.svg');
+}
+body.page-template-Learn header#header nav.navbar #mainNav ul li.learn {
+	background-image: url('../images/pinwheel.svg');
+}
+body.page-template-Deliver header#header nav.navbar #mainNav ul li.deliver {
+	background-image: url('../images/pinwheel.svg');
+}
+body.page-template-About header#header nav.navbar #mainNav ul li.about {
+	background-image: url('../images/pinwheel.svg');
+}
+body div#intro-content {
+	position: relative;
+}
+body div#intro-content div.wrap-container {
+	width: 100%;
+	display: flex;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+body div#intro-content div.wrap-container.top {
+	height: 55vh;
+	max-height: 55vh;
+	background-image: url('../images/TeachingThings_header_bg-top-1920x700.jpg');
+}
+body div#intro-content div.wrap-container.bottom {
+	height: 45vh;
+	max-height: 45vh;
+	background-image: url('../images/TeachingThings_header_bg-bottom-1920x518.jpg');
+}
+body div#intro-content div.wrap-container.middle {
+	height: 99vh;
+	min-height: calc(750px + 21vh);
+	max-height: 99vh;
+	background-image: url('../images/TeachingThings_whats-in-the-bag_1920.jpg');
+}
+body div#intro-content img#WhatsInTheBag {
+	position: absolute;
+	bottom: 10vh;
+}
+body div#intro-content .page-tear, body.page-template main#main-content .page-tear, body.error404 main#main-content .page-tear {
+	width: calc(100% + 6px);
+	max-width: calc(100% + 6px);
+}
+body div#intro-content .page-tear {
+	position: absolute;
+}
+body.page-template main#main-content .page-tear, body.error404 main#main-content .page-tear {
+	position: relative;
+}
+body div#intro-content .page-tear.bottom, body.page-template main#main-content .page-tear.bottom {
+	left: -3px;
+	bottom: -3px;
+}
+body div#intro-content .page-tear.top {
+	left: -3px;
+	top: -3px;
+}
+body.page-template main#main-content .page-tear.top, body.error404 main#main-content .page-tear.top {
+	left: -3px;
+	margin-top: calc(-1px - 1vw);
+}
+body.page-template main#main-content .page-tear.top + div, body.error404 main#main-content .page-tear.top + div {
+	position: relative;
+	z-index: 100;
+}
+body main#main-content {
+	padding-top: 4.8rem;
+}
+body.page-template main#main-content, body.error404 main#main-content {
+	position: relative;
+	z-index: 100;
+	margin-top: 120px;
+	padding-top: 0;
+}
+body main#main-content .build-learn-deliver {
+	position: relative;
+	background-size: cover;
+	background-position: center 201px;
+	background-repeat: no-repeat;
+	background-image: url('../images/teachingthings_paper-texture_bg.jpg');
+	box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.3);
+}
+body main#main-content .build-learn-deliver object.page-tear {
+	position: absolute;
+	top: 192px;
+	left: -1%;
+}
+body main#main-content .build-learn-deliver img.page-bottom {
+	width: calc(18% + 30px);
+	max-width: 500px;
+	position: absolute;
+	bottom: 0;
+}
+body main#main-content .build-learn-deliver img.page-bottom.left {
+	left: 0;
+}
+body main#main-content .build-learn-deliver img.page-bottom.right {
+	right: 0;
+}
+body main#main-content .build-learn-deliver .column {
+	padding-left: 1.8rem;
+	padding-right: 1.8rem;
+}
+body main#main-content .build-learn-deliver .column h2 {
+	margin-bottom: 0;
+	line-height: 1;
+	less-letter-spacing: -1.5px;
+	text-align: center;
+	color: rgba(255,255,255,.42);
+}
+body main#main-content .build-learn-deliver .content-card {
+	padding: 21px;
+	box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.36);
+}
+body main#main-content .build-learn-deliver .content-card {
+	background-color: rgba(255,255,255,.42);
+	border-radius: 12px;
+}
+body main#main-content .build-learn-deliver .content-card object {
+	height: 120px;
+	max-height: 120px;
+	width: 100%;
+	display: block;
+	margin: 0 auto 60px auto;
+}
+body main#main-content .build-learn-deliver .content-card p {
+	padding-top: 27px;
+	text-align: center;
+}
+body.page-template-About, body.page-template-LandingPage {
+	position: relative;
+	background-size: contain;
+	background-position: center top;
+	background-repeat: repeat-y;
+	background-image: url('../images/teachingthings_paper-texture_bg.jpg');
+}
+body.page-template-About main#main-content, body.page-template-LandingPage main#main-content {
+	overflow: hidden;
+}
+body.page-template-About header#header, body.page-template-About main#main-content .build-learn-deliver, body.page-template-LandingPage header#header, body.page-template-LandingPage main#main-content .build-learn-deliver {
+	background-image: none;
+	box-shadow: none;
+}
+body.page-template-About footer, body.page-template-LandingPage footer {
+	box-shadow: inset 0px 0px 15px 10px rgb(0 0 0 / 30%)
+}
+body.page-template-About h2, body.page-template-LandingPage h2 {
+	margin-bottom: 12px;
+}
+body.page-template-About .card figure, body.page-template-LandingPage .card figure {
+	border-radius: 50%;
+	box-shadow: 15px 15px 21px 0px rgba(0,0,0,0.15);
+}
+body.page-template-About .card .title, body.page-template-LandingPage .card .title {
+	margin-bottom: 0;
+	font-size: 18px;
+  font-weight: 900;
+}
+body.page-template-About .card .subtitle, body.page-template-LandingPage .card .subtitle {
+	margin-top: 0;
+	margin-bottom: 6px;
+	font-size: 15px;
+  font-weight: 600;
+}
+body.page-template-About .card.leader .card-content, body.page-template-LandingPage .card.leader .card-content {
+	text-align: center;
+}
+body.page-template-About .card.educator .card-content, body.page-template-LandingPage .card.educator .card-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 12px 30px;
+}
+body.page-template-About .card.educator .card-content:nth-child(2), body.page-template-LandingPage .card.educator .card-content:nth-child(2) {
+	margin-top: -12px;
+	padding-top: 0;
+}
+body.page-template-About .card.educator .card-content figure, body.page-template-LandingPage .card.educator .card-content figure {
+	margin-right: 12px;
+}
+body.page-template-About .card.educator .card-content button + .hidden-content, body.page-template-LandingPage .card.educator .card-content button + .hidden-content {
+	display: none;
+}
+body.page-template-About .card.educator .card-content button.contentActive + .hidden-content, body.page-template-LandingPage .card.educator .card-content button.contentActive + .hidden-content {
+	min-width: 100%;
+	display: block;
+}
+
+
+footer#footer {
+	width: 100%;
+	background-color: #888888;
+}
+footer#footer .container {
+	position: relative;
+	padding-top: 60px;
+	background-size: 48px;
+	background-position: 0 4.2rem;
+	background-repeat: no-repeat;
+	background-image: url('../images/pinwheel.svg');
+}
+footer#footer .footer {
+	padding-top: 21px;
+	padding-bottom: 21px;
+	background: transparent;
+	font-size: 15px;
+}
+footer#footer .menu .footer {
+	padding-left: 54px;
+}
+footer#footer ul.menu-list.footer a {
+	display: inline-block;
+	padding: 0 0;
+	color: rgb(0,0,0);
+}
+footer#footer .footer .columns.mwbe {
+	background-color: rgb(255,255,255);
+	border-radius: 150px;
+}
+footer#footer .footer .column:first-child {
+	padding: 0 0;
+}
+footer#footer .footer .column a, footer#footer .footer .column a:hover, footer#footer .footer .column a:focus {
+	padding: 0 0;
+	font-weight: 900;
+	color: #c9a133;
+}
