@@ -160,6 +160,10 @@ get_header();
                       <p class="title">Cheryl Crawford</p>
                       <p class="subtitle">Curriculum Specialist</p>
                     </div>
+                    <button class="button is-rounded is-small" onclick="toggle_visibility('CherylCrawford');" id="CherylCrawford">More Info</button>
+                    <div class="hidden-content">
+                      <p>Certification areas: Elementary Education Birth-2; Childhood 1-6; Students with Disabilities Birth-2 and Childhood 1-6;<br />Certified Wilson Dyslexia Practitioner and will soon complete her NYS certification in TESOL.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -206,6 +210,10 @@ get_header();
                     <div class="media-content">
                       <p class="title">Adam Fragale</p>
                       <p class="subtitle">Curriculum Specialist</p>
+                    </div>
+                    <button class="button is-rounded is-small" onclick="toggle_visibility('AdamFragale');" id="AdamFragale">More Info</button>
+                    <div class="hidden-content">
+                      <p>Certification areas: Adolescent Education</p>
                     </div>
                   </div>
                 </div>
