@@ -6,30 +6,6 @@
 
 get_header();
 ?>
-<div class="modal" id="TeachingThingsContactForm">
-  <div class="modal-background noFormForYou"></div>
-  <div class="modal-card">
-    <header class="modal-card-head">
-      <p class="modal-card-title headline">Contact Teaching Things</p>
-      <button class="delete noFormForYou" aria-label="close"></button>
-    </header>
-    <section class="modal-card-body">
-<!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<script>
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "182596",
-	formId: "967406bb-de21-48bb-829a-7b29c5cea658"
-});
-</script>
-    </section>
-  </div>
-</div>
-
-
   <main id="main-content" role="main">
 		<div class="container is-fluid">
     	<div class="container padding-top padding-bottom">
@@ -59,8 +35,7 @@ get_header();
                     </div>
                     <button class="button is-rounded is-small" onclick="toggle_visibility('DawnCastillo');" id="DawnCastillo">More Info</button>
                     <div class="hidden-content">
-                      <p><small>As the President and Co-owner, Dawn is responsible for the day-to-day function, decision making, and overall operation of the business. Dawn started in 2015 and has held positions in various departments such as purchasing, professional development, and hardware & installation, giving her unique insight into the many components of the company. </small></p>
-                      <p><small>Dawn is the stepdaughter of Robert Sugarman, the Founder of Tequipment.  Although she spent years working in finance, property management, and project management, she made sure to stay informed of the progress and growth of the family business. Eventually, she decided to take an active role and joined the staff, gaining experience in all departments.  She ultimately chose professional development and learning as her focus. A new company, Teaching Things, was formed as an offshoot of Tequipment to ensure a clear focus on teaching and learning services, and a team dedicated to delivering exceptional results for the educational community. As the head of this new company, Dawn unites her diverse business experiences and acumen with her in-depth knowledge of the company. It is with great pride that Dawn takes on being an executive and co-owner of a company that evolved from the family business.</small></p>
+                      <p><small>As president and co-owner of the company, Dawn has prepared for this role by being involved in each division of the company which has given her greater insight into the daily operations.  Dawn is responsible for the day-to-day function and decision making.</small></p>
                     </div>
                   </div>
                 </div>

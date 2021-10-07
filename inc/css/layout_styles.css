@@ -1,3 +1,42 @@
+body #jukebox {
+	height: 225px;
+	width: auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	cursor: pointer !important;
+	transition: all .3s ease;
+}
+body #jukebox.is-removed {
+	visibility: hidden;
+	opacity: 0;
+	transform: translateY(-30px);
+}
+body #jukebox > img.hover-notes {
+	position: absolute;
+	z-index: 1;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .18s ease;
+}
+body #jukebox:hover > img.hover-notes {
+	visibility: visible;
+	opacity: 1;
+}
+body #jukebox > img.hover-notes + img.jukebox-static {
+	min-height: 100%;
+	min-width: 100%;
+}
+body #jukebox + div#WhatsYourThing img.jukebox-lyrics {
+	height: auto;
+	width: auto;
+	position: absolute;
+	bottom: 150px;
+	right: 0;
+	z-index: 1000;
+}
+
 body #wrapper {
 	display: flex;
 }

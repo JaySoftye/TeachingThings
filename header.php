@@ -10,7 +10,16 @@
 
     <body <?php body_class(); ?>>
       <?php wp_body_open(); ?>
-
+      <?php if ( is_front_page() ) : ?>
+        <div id="jukebox" class="hide-tablet" onclick="modal_visibility('WhatsYourThing');">
+          <img class="hover-notes" src="<?php echo get_template_directory_uri() . '/inc/images/what_your_thing_music-notes.gif'; ?>" />
+          <img class="jukebox-static" src="<?php echo get_template_directory_uri() . '/inc/images/what_your_thing_jukebox.png'; ?>" alt="What's your thing?" />
+        </div>
+        <div class="modal" id="WhatsYourThing">
+          <img class="jukebox-lyrics" src="<?php echo get_template_directory_uri() . '/inc/images/what_your_thing_jukebox_POPUP.png'; ?>" />
+          <div class="modal-background" id="modalClose"></div>
+        </div>
+      <?php endif; ?>
         <div id="wrapper" class="hfeed">
           <header id="header" role="banner">
             <nav class="navbar" role="navigation" aria-label="main navigation">

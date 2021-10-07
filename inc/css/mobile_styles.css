@@ -24,11 +24,19 @@ body aside.menu.mobile-menu ul.menu-list li a {
 }
 
 @media (max-width: 1230px) {
+  body #jukebox {
+    height: 191px;
+    bottom: -75px;
+  }
 }
 
 @media (max-width: 1024px) {
   .hide-laptop {
     display: none !important;
+  }
+  body #jukebox {
+    height: 170px;
+    bottom: -90px;
   }
 }
 
@@ -39,6 +47,9 @@ body aside.menu.mobile-menu ul.menu-list li a {
   .container {
     padding-left: 24px;
     padding-right: 24px;
+  }
+  body #jukebox {
+    height: 90px;
   }
   body div#intro-content div.wrap-container.top {
   	height: 42vh;
