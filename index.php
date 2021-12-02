@@ -15,6 +15,11 @@
           <h5 class="white-text has-text-centered">We bring our joy for hands-on, experiential education to the entire learning community. Our services include project-based learning pathways that inspire infectious creativity, a robust library of online learning courses & micro-credentialing, and onsite/virtual professional learning.</h5>
         </div>
       </div>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <script src="https://fast.wistia.com/embed/medias/t1ojpmm90k.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_t1ojpmm90k popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span></div></div>
+        </div>
+      </div>
     </div>
     <div class="build-learn-deliver">
       <object type="image/svg+xml" data="<?php echo get_template_directory_uri() . '/inc/images/page-tear_top-position-black.svg'; ?>" class="page-tear"></object>
